@@ -1,0 +1,4 @@
+qt (tiền thân là pyside)
+
+TLDR:
+- cần install module pyside (install vào environment của unreal python)

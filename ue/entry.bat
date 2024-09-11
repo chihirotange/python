@@ -1,0 +1,1 @@
+"E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" "E:\unrealProjects\enter-the-gungeon\Nano.uproject" -run=pythonscript -script="E:\python\tkinter\tutorial.py" -stdout -FullStdOutLogOutput
