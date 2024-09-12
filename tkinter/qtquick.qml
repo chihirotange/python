@@ -20,15 +20,21 @@ ApplicationWindow {
         anchors.top: parent.top
         
         Button {
+            id: hoverableButton
             contentItem: Text {
                 text: "Click me"
                 font.pointSize: 20
                 color: "#f2faef"
                 font.family: "Tahoma"
+                font.capitalization: Font.AllUppercase
             }
-                background: Rectangle {
-                color: "#447a9c"
+            background: Rectangle {
+                color: hoverableButton.hovered ? "#5a9ac0" : "#447a9c"
+                Behavior on color {
+                    ColorAnimation { duration: 200 }
+                }
             }
+            hoverEnabled: true
         }
         Button {
             text: "click me"
